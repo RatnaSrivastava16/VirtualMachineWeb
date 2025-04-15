@@ -1,3 +1,4 @@
+import "../components/Output.css"
 export default function Output({ result }) {
   return (
     <div className="output-box">

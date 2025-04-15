@@ -1,0 +1,37 @@
+.output-box {
+background: linear-gradient(135deg, #040404, #01387c);  
+border-left: 6px solid #1d2149;
+  padding: 20px;
+  border-radius: 10px;
+  color: #FFFFFF;
+  font-family: 'Fira Code', 'Courier New', monospace;
+  box-shadow: 0 0 20px rgb(30, 31, 30);
+  margin-top: 20px;
+  white-space: pre-wrap;
+  overflow-x: auto;
+  transition: all 0.3s ease-in-out;
+}
+
+.output-box h3 {
+  margin-top: 0;
+  color: #ffffff;
+  background: linear-gradient(135deg, #1d1d1d, #045ac3);  
+  border-radius: 6px;
+
+  border-left: 6px solid #1d2149;
+  font-weight: 800;
+  margin-bottom: 10px;
+  font-size: 18px;
+  padding-bottom: 5px;
+}
+
+.output-box pre {
+  margin: 0;
+  background: linear-gradient(135deg, #1d1d1d, #045ac3);  
+  border-radius: 10px;
+
+  border-left: 6px solid #1d2149;
+  font-size: 15px;
+  line-height: 1.6;
+  word-wrap: break-word;
+}

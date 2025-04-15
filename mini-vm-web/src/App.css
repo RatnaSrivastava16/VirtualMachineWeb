@@ -1,20 +1,6 @@
-.container {
-  max-width: 800px;
-  margin: auto;
-  text-align: center;
-  font-family: Arial, sans-serif;
-}
-
-.run-btn {
-  margin-top: 10px;
-  padding: 10px 20px;
-  font-size: 16px;
-  background-color: #333;
-  color: white;
-  border: none;
-  cursor: pointer;
-}
-
-.run-btn:hover {
-  background-color: #555;
+* {
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(to right, #010143, #494872);
+  font-family: 'Fira Code', 'Courier New', monospace;
 }

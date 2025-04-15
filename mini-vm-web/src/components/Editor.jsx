@@ -1,6 +1,7 @@
 import { useState } from "react";
 import axios from "axios";
 import Output from "./Output";
+import "../components/Editor.css"
 
 export default function Editor() {
   const [code, setCode] = useState("");
@@ -19,13 +20,12 @@ export default function Editor() {
   return (
     <div className="editor-container">
       <textarea
-      
         rows={10}
         value={code}
         onChange={(e) => setCode(e.target.value)}
         placeholder="Write your .vm code here..."
       />
-      <button onClick={runCode}>Run</button>
+      <button className="btn-container" onClick={runCode}>Run</button>
       <Output result={output} />
     </div>
   );
