@@ -1,0 +1,9 @@
+LOAD 3
+STORE 0
+loop:
+LOADM 0
+PRINT
+SUB 1
+STOREM 0
+JNZ loop
+HALT
